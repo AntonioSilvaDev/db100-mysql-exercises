@@ -106,7 +106,7 @@ describe('SQL Exercises -', function () {
   this.timeout(10000);
 
   let results = null;
-
+  
   before(done => {
     sqlConnection = new mysql.createConnection({
       multipleStatements: true,
